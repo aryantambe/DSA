@@ -76,7 +76,7 @@ public class pattern1 {
                 }
                 System.out.println();
             }
-
+            //0-1 Triangle
             for(int i=1;i<=n;i++){
                 for(int j=1;j<=i;j++){
                     if((i+j)%2==0){
