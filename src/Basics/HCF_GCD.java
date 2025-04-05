@@ -1,6 +1,7 @@
 package Basics;
 
 public class HCF_GCD {
+    //Brute Force (least optimal)
     public static void meth1(int n1,int n2){
         int n=Math.min(n1,n2);
         int gcd=1;
@@ -11,6 +12,7 @@ public class HCF_GCD {
         }
         System.out.println("The GCD of the numbers is "+gcd);
     }
+
     //A bit more optimised code
     public static void meth2(int n1,int n2){
         int n=Math.min(n1,n2);
@@ -21,6 +23,8 @@ public class HCF_GCD {
             }
         }
     }
+
+    //Euclidean Algorithm gcd(n1,n2)=gcd(n1-n2,n2) where n1>n2
     public static void euclideanAlgorithm(int n1,int n2){
         while (n1 > 0 && n2 > 0) {
             if(n1>n2){
