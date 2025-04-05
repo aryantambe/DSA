@@ -1,10 +1,10 @@
 package Basics;
 
-import static java.lang.Math.sqrt;
+
 
 public class basicMaths {
     public static void extractionAndCounting(int num) {
-        int k = 0;
+        int k;
         int count =0;
         while (num > 0) {
             k = num % 10;
@@ -16,7 +16,7 @@ public class basicMaths {
     }
     public static int reverseNum(int num){
         int rev=0;
-        int t=0;
+        int t;
         while(num>0){
             t=num%10;
             rev=(rev*10)+t;
@@ -26,7 +26,7 @@ public class basicMaths {
     }
     public static void armstrongNumber(int num){
         int dupe=num;
-        int k=0;
+        int k;
         int sum=0;
         int count=0;
         int temp = num;
