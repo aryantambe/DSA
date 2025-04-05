@@ -59,6 +59,24 @@ public class basicMaths {
         }
     }
 
+    //Prime number (Using optimal approach)
+    public static void primeNumber(int num){
+        int count=0;
+        for(int i=1;i<=Math.sqrt(num);i++){
+            if(num%i==0){
+                count++;
+                if(num/i!=i){
+                    count++;
+                }
+            }
+        }
+        if(count==2){
+            System.out.println("It is a prime number");
+        }else{
+            System.out.println("It is a non-prime number");
+        }
+    }
+
     public static void main(String[] args) {
         //Extracting digits
         extractionAndCounting(7789);
@@ -69,6 +87,7 @@ public class basicMaths {
         System.out.println(count);
         armstrongNumber(9474);
         PrintDivisors(36);
+        primeNumber(11);
 
 
 
