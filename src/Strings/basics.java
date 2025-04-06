@@ -59,6 +59,11 @@ public class basics {
         for (char c : arr) {
             System.out.print(c);
         }
+        System.out.println();
+
+        StringBuilder stri=new StringBuilder("Aryan");
+        stri.reverse();
+        System.out.println(stri);
 
 
 
