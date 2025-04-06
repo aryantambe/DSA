@@ -32,11 +32,17 @@ public class questions {
         }
         sumOfNumbers(num-1,sum+num);
     }
+    public static int factorial(int n){
+        if(n==0) return 1;
+        return n*factorial(n-1);
+    }
     public static void main(String[] args) {
        // printNTimes(10);
         //printNTimes2(1,10);
        // backtrack1(10);
        // backtrack2(10);
         sumOfNumbers(5,0);
+       int fact= factorial(5);
+        System.out.println(fact);
     }
 }
