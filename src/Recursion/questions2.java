@@ -20,6 +20,12 @@ public class questions2 {
         reverseArray2(i+1,n,arr);
     }
 
+    public static boolean checkStringPalindrome(String str,int size,int i){
+        if(i>=size/2) return true;
+        if(str.charAt(i)!=str.charAt(size-i-1)) return false;
+        return checkStringPalindrome(str,size,i+1);
+    }
+
     public static void main(String[] args) {
         int [] arr={1,2,3,4,5};
         int n=arr.length;
@@ -28,6 +34,10 @@ public class questions2 {
         for(int element:arr){
             System.out.print(element);
         }
+        System.out.println();
+        String str="naman";
+        int size=str.length();
+        System.out.println(checkStringPalindrome(str,size,0));
 
     }
 }
