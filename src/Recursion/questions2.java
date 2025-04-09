@@ -25,6 +25,10 @@ public class questions2 {
         if(str.charAt(i)!=str.charAt(str.length()-i-1)) return false;
         return checkStringPalindrome(str,i+1);
     }
+    public static int fibonacci(int n){
+        if(n<=1) return n;
+        return fibonacci(n-1)+fibonacci(n-2);
+    }
 
     public static void main(String[] args) {
         int [] arr={1,2,3,4,5};
@@ -37,6 +41,7 @@ public class questions2 {
         System.out.println();
         String str="naman";
         System.out.println( checkStringPalindrome(str,0));
+        System.out.println(fibonacci(6));
 
     }
 }
