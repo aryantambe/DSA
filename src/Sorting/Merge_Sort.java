@@ -1,7 +1,7 @@
 package Sorting;
 
 import java.util.ArrayList;
-import java.util.Scanner;
+
 
 public class Merge_Sort {
     public static void merge(int [] arr,int low,int mid,int high){
