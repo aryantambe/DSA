@@ -27,7 +27,7 @@ public class remove_duplicates {
         }
         System.out.println(i + 1);
     }
-
+    //return a list of duplicated integers
     public static ArrayList<Integer> returnDuplicates(int[] arr) {
         ArrayList<Integer> list = new ArrayList<>();
         Arrays.sort(arr);
