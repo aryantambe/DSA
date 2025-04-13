@@ -28,7 +28,7 @@ public class move_zeros_to_end {
     }
 
     //Using the 2 pointer approach
-    public static void bruteForceArrays(int[] arr){
+    public static void optimal(int[] arr){
         int i=0;
         for(int j=0;j<arr.length;j++){
             if(arr[j]!=0){
@@ -45,7 +45,8 @@ public class move_zeros_to_end {
     public static void main(String[] args) {
         int[] arr={1,2,3,0,6,0,4,0};
         bruteForceArrayList(arr);
-        bruteForceArrays(arr);
+        optimal(arr);
+
 
     }
 }
