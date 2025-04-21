@@ -63,6 +63,7 @@ public class union_of_sorted {
         for (int j : arr) {
             System.out.print(j + " ");
         }
+        System.out.println();
        ArrayList<Integer> list= optimal(arr1,arr2);
         for(int e:list){
             System.out.print(e+" ");
