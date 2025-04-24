@@ -1,6 +1,5 @@
 package Arrays.Easy;
 
-import com.sun.jdi.event.BreakpointEvent;
 
 public class find_number_that_appears_once {
     private static int fn(int [] arr){
