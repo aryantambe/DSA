@@ -42,6 +42,7 @@ public class move_zeros_to_end {
             System.out.print(el+" ");
         }
     }
+
     public static void main(String[] args) {
         int[] arr={1,2,3,0,6,0,4,0};
         bruteForceArrayList(arr);

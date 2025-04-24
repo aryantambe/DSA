@@ -26,7 +26,7 @@ public class find_number_that_appears_once {
         return xorr;
     }
     public static void main(String[] args) {
-        int [] arr={1,1,2,2,3,3,4,4,5,6,6,7,7};
+        int [] arr={1,1,2,2,3,3,4,4,5,5,6,6,7};
         int result=fn(arr);
         System.out.println(result);
         int res=opt(arr);
