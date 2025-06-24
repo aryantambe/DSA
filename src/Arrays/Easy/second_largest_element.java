@@ -1,5 +1,4 @@
 package Arrays.Easy;
-import java.util.*;
 public class second_largest_element {
     public static void secondlargestBetter(int [] arr){
         int max=arr[0];
