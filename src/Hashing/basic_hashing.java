@@ -1,6 +1,5 @@
 package Hashing;
 
-import java.util.Scanner;
 
 public class basic_hashing {
     public static void main(String[] args) {

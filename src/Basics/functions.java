@@ -40,6 +40,7 @@ public class functions {
         int num=sc.nextInt();
         int fact=factorial(num);
         System.out.println("The factorial of "+ num+" is "+fact);
+        sc.close();
     }
 
     //Functions are stored in the memory as a stack
