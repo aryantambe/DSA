@@ -1,6 +1,5 @@
 package Recursion;
 
-import static java.util.Collections.swap;
 
 public class questions2 {
     //using 2 pointers

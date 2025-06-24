@@ -65,6 +65,8 @@ public class basics {
         stri.reverse();
         System.out.println(stri);
 
+        sc.close();
+
 
 
     }
