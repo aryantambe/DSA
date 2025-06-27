@@ -66,7 +66,7 @@ public class basicMaths {
         for (int i = 1; i <= Math.sqrt(num); i++) {
             if (num % i == 0) {
                 count++;
-                if (num / i != i) {
+                if (num / i != i) { //      3
                     count++;
                 }
             }
@@ -115,6 +115,17 @@ public class basicMaths {
         return false;
     }
 
+    private static boolean pri(int n){
+        int count=0;
+        for(int i=2;i<n;i++){
+            if(n%i==0){
+                count++;
+            }
+            
+        }
+        if(count==0) return true;
+        return false;
+    }
 
 
     public static void main(String[] args) {
@@ -136,6 +147,8 @@ public class basicMaths {
         System.out.println(checkPalindromeNumber(21));
 
         System.out.println(arms(407));
+
+        System.out.println(pri(13));
 
 
     }
