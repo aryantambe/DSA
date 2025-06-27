@@ -48,8 +48,7 @@ public class basicMaths {
             System.out.println("Not a Armstrong number");
         }
     }
-
-    //Pair divisor
+        //Pair divisor
     public static void PrintDivisors(int num) {
         for (int i = 1; i < Math.sqrt(num); i++) {
             if (num % i == 0) {
@@ -78,6 +77,45 @@ public class basicMaths {
             System.out.println("It is a non-prime number");
         }
     }
+    //--------------------- revision------------------------------------------
+    public static int reverse(int n){
+        int rev=0;
+        while (n>0) {
+         int digit=n%10;
+         rev=rev*10+digit;
+         n=n/10;
+        }
+        
+        return rev;
+    }
+    public static boolean checkPalindromeNumber(int n){
+        int m=n;
+        int rev=0;
+        while(n>0){
+            int digit=n%10;
+             rev=rev*10+digit;
+            n=n/10;
+        }
+        if(m==rev){
+            return true;
+        }
+        return false;
+    }
+
+    private static boolean arms(int n){
+        int digits;
+        int res=0;
+        int dupe=n;
+        while(n>0){
+            digits=n%10;
+            res+=digits*digits*digits;
+            n=n/10;
+        }
+        if(res==dupe) return true;
+        return false;
+    }
+
+
 
     public static void main(String[] args) {
         //Extracting digits
@@ -90,6 +128,14 @@ public class basicMaths {
         armstrongNumber(9474);
         PrintDivisors(36);
         primeNumber(11);
+
+        //revision
+        int r=reverse(1234);
+        System.out.println(r);
+
+        System.out.println(checkPalindromeNumber(21));
+
+        System.out.println(arms(407));
 
 
     }
