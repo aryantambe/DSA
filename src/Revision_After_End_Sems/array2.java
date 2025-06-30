@@ -15,7 +15,7 @@ public class array2 {
     public static void main(String[] args) {
         int [] arr={12,2,3,4,5,10};
         int res=largest_num(arr);
-       // System.out.println(res);
+        System.out.println(res);
 
         
         int sum=0;
@@ -23,6 +23,7 @@ public class array2 {
             sum+=i;
         }
         System.out.println(sum);
+
 
     }
     

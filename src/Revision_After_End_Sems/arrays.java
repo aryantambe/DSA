@@ -2,12 +2,14 @@ package Revision_After_End_Sems;
 
 public class arrays {
 
-    private static int[] swap(int n, int m){
-        n=n^m;
-        m=m^n;
-        n=n^m;
-        return new int[]{n,m};
-    }
+    //swap function using xor operator
+
+    // private static int[] swap(int n, int m){
+    //     n=n^m;
+    //     m=m^n;
+    //     n=n^m;
+    //     return new int[]{n,m};
+    // }
 
     private static int factorial(int n){
         int fact=1;
