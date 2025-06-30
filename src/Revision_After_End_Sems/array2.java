@@ -1,4 +1,5 @@
 package Revision_After_End_Sems;
+import java.util.*;
 
 
 public class array2 {
@@ -12,17 +13,22 @@ public class array2 {
         }
         return max;
     }
+
+    private static int sorted_largest_num(int [] arr){
+        Arrays.sort(arr);
+        int max=arr[arr.length-1];
+        return max;
+    }
     public static void main(String[] args) {
         int [] arr={12,2,3,4,5,10};
         int res=largest_num(arr);
         System.out.println(res);
 
         
-        int sum=0;
-        for(int i=0;i<10;i++){
-            sum+=i;
-        }
-        System.out.println(sum);
+        int max=sorted_largest_num(arr);
+        System.out.println(max);
+
+
 
 
     }
