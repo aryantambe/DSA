@@ -23,7 +23,7 @@ public class left_rotate_by_D_places {
         k=k%n;
         rev(0,k-1,arr);
         rev(k,n-1,arr);
-        rev(0,n-1,arr);
+        rev(0,n-1,arr);  
 
     }
     private static void rev(int start,int end,int [] arr){
