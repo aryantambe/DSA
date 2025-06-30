@@ -1,6 +1,6 @@
 package Arrays.Easy;
 public class second_largest_element {
-    public static void secondlargestBetter(int [] arr){
+    private static void secondlargestBetter(int [] arr){
         int max=arr[0];
         int sl=-1; //in case there is no second largest
         for(int i=0;i<arr.length;i++){
@@ -15,7 +15,7 @@ public class second_largest_element {
         }
         System.out.println(sl);
     }
-    public static void secondLargestOptimal(int [] arr){
+    private static void secondLargestOptimal(int [] arr){
         int max=arr[0];
         int sl=-1;
         for(int i=0;i<arr.length;i++){
