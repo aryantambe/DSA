@@ -15,6 +15,8 @@ public class find_element_that_appears_once {
         }
         return 0;
     }
+
+    //XOR-> 1^1=0 and 0^1=1 ---> using this property we can easily solve this question
      private static int optimalXOR(int [] arr){
         int xor=0;
         for(int i=0;i<arr.length;i++){
