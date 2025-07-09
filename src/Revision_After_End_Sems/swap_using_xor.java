@@ -9,6 +9,7 @@ public class swap_using_xor {
         b=a^b;
         a=a^b;
         System.out.println("a:" +a +"b:"+b);
+        
 
     }
 }

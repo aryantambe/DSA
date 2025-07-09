@@ -1,6 +1,5 @@
 package Revision_After_End_Sems;
 
-
 //LEETCODE 977 
 
 public class sqared_and_sorted_array {
