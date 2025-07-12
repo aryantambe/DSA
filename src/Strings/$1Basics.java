@@ -8,10 +8,10 @@ public class $1Basics {
             //==
             System.out.println(name==name1);
             System.out.println(name.equals(name1));
-
+            //Different objects created (therefore diff references)
             String a =new String("Aryan");
             String b =new String("Aryan");
-
+            //.equals
             System.out.println(a==b);
             System.out.println(a.equals(b));
 
