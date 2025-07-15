@@ -1,7 +1,7 @@
 package Strings;
 
 //Leetcode 20- Valid Parentheses
-public class $Valid_parentheses {
+public class $8Valid_parentheses {
     private static boolean easierQuestion(String s){ //if only () brackets are there
         int count=0;
         for(int i=0;i<s.length();i++){
